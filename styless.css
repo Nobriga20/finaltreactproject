@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 * {
     padding: 0PX;
     margin: 0 auto;
     box-sizing: border-box;
+    font-family:'Roboto', sans-serif; 
 }
-
+body {
+    overflow-x: hidden;
+}
 
 .test__btn {
     border: none;
-    background color: white;
+    background-color: white;
     color: blueviolet;
     padding-right: 8px;
     cursor: pointer;
@@ -45,8 +49,8 @@
 
 .menu__link {
     color: white;
-    font-size: 16px
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 700px;
     text-decoration: none;
 }
 
@@ -304,8 +308,10 @@ justify-content: center;
 
 
 .threeplans__plan {
+    border-radius: 8px;
     border: 2px solid grey;
     padding: 20px 30px;
+    margin-right: 40px;
 }
 
 .threeplans__container {
@@ -362,9 +368,11 @@ justify-content: center;
 
 
 .threeplans__businessplan {
-    background-color: rgb(100, 21, 255);
+    background-color: #4e88d7;
     color: #f7fafc;
     padding: 20px 30px;
+    margin-right: 40px;
+    border-radius: 8px;
 }
 
 .threeplans__buynowbtn {
@@ -377,7 +385,7 @@ justify-content: center;
 }
 
 .buynowbtn {
-    background-color: rgb(9, 162, 9);
+    background-color: rgb(103, 220, 103);
     font-size: 16px;
     color: #f7fafc;
     padding: 16px 56px;
@@ -469,11 +477,7 @@ justify-content: center;
     font-weight: bold;
 }
 
-.principlesimg {
-    display: flex;
-    justify-content: end;
-    margin-top: 150px;
-}
+
 
 
 .affpro {
@@ -485,9 +489,10 @@ justify-content: center;
 }
 
 .principlesimg {
-    width: 425%;
+    width: 350%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    margin-right: 200px;
 }
 
 .stepimg {
@@ -551,7 +556,7 @@ justify-content: center;
 
 .principles__img {
    width: 100%;
-   max-width: 150px;
+   max-width: 200px;
 }
 
 .principlesdescription {
@@ -569,7 +574,7 @@ justify-content: center;
 .valuestitle {
     font-size: 20px;
     color: #6415ff;
-    margin: 20px;
+    margin-left: 20px;
     margin-top: 150px;
 }
 
@@ -619,10 +624,10 @@ justify-content: center;
 
 
  .img__logo {
-    border: 2px solid gray;
+    border: 2px solid rgb(233, 230, 230);
     padding: 18px;
-    border-radius: 50px;
-    margin: 12px 20px 12px;
+    border-radius: 50%;
+    margin: 0px 20px ;
 
 
  }
@@ -720,7 +725,8 @@ justify-content: center;
 
 .input__btn {
     border: none;
-    
+    padding: 0 40px;
+
 
 }
 
@@ -913,6 +919,14 @@ nav {
     .styledimg {
         display: flex;
     }
+
+    .header__lists {
+        border: 1px solid gray;
+    padding: 2px;
+    border-radius: 50px;
+    }
+
+   
 
     @media (max-width: 970px) {
         .wrapper {
