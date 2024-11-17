@@ -1,7 +1,7 @@
 * {
     padding: 0PX;
-    margin: 0;
-    box-sizing: border-box;twocolumnimage
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 
@@ -720,6 +720,7 @@ justify-content: center;
 
 .input__btn {
     border: none;
+    
 
 }
 
@@ -968,7 +969,7 @@ nav {
             max-width: 300px;
         }
         }
-    }
+    
 
 
 
