@@ -83,6 +83,7 @@ body {
 
 .client {
     padding-left: 10px;
+    margin-bottom: 320px;
 }
 
 .tolumsinfocontainer {
@@ -187,7 +188,6 @@ justify-content: center;
     font-size: 16px;
     color: #4A5568;
     font-weight: bold;
-    margin: 0;
 }
 
 .twocolumnswithimageandrating {
@@ -326,7 +326,8 @@ justify-content: center;
 
 .valueswrapper {
     display: flex;
-    justify-content: baseline;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .twocolumnsdescription {
@@ -494,10 +495,10 @@ justify-content: center;
 }
 
 .principlesimg {
-    width: 350%;
+    width: 200%;
     display: flex;
     justify-content: center;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .stepimg {
@@ -561,7 +562,8 @@ justify-content: center;
 
 .principles__img {
    width: 100%;
-   max-width: 200px;
+   max-width: 300px;
+   margin-right: 150px;
 }
 
 .principlesdescription {
@@ -739,7 +741,7 @@ justify-content: center;
 .landingdescription {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 40%;
     margin-top: 40px;
 }
 
@@ -816,9 +818,13 @@ nav {
         color: #f7fafc;
         font-size: 20px;
         margin: 8px 8px 8px 0;
-        padding: 16px 32px;
+        padding: 10px 24px;
         background-color: #6415ff;
         border-radius: 50px;
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        
     }
 
      .title__img {
@@ -930,8 +936,10 @@ nav {
 
     .header__lists {
         border: 1px solid gray;
-    padding: 2px;
+    padding: 28px;
     border-radius: 50px;
+    position: relative;
+    
     }
 
     .treact__logo {
@@ -942,16 +950,16 @@ nav {
     }
 
     .headerlist {
-        margin-right: 300px;
         font-size: 45px;
+    
+        
         
     }
 
     .end__header {
         color: white;
-        font-size: 31px;
-        padding-left: 70px;
-        padding-top: 75px;
+        font-size: 24px;
+        
     }
 
     .end__wrapper {
@@ -963,7 +971,7 @@ nav {
 
     .getstarted__btn {
         display: flex;
-        margin-right: 350px;
+        margin-right: 5px;
         border-radius: 50px;
         padding: 20px 40px;
         background-color: red;
@@ -973,13 +981,23 @@ nav {
     .contactus__btn {
         padding: 20px 40px;
         border-radius: 50px;
-        background-color: none;
+        background-color: transparent;
         color: white;
         display: flex;
         justify-content: center;
         align-items: end;
+        border: 1px solid white;
     }
 
+    .developer__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .buttons {
+        display: flex;
+    }
    
 
     @media (max-width: 970px) {
