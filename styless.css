@@ -94,6 +94,7 @@ body {
 
 .starscontainer {
     padding-bottom: 8px;
+    margin-right: 420px;
 }
 
 .slickslack {
@@ -164,7 +165,8 @@ justify-content: center;
 
 .twocolumnsubheading {
     margin-bottom: 16px;
-    margin-right: 450px;
+    margin-right: 430px;
+    margin-top: 80px;
 }
 
 
@@ -177,6 +179,7 @@ justify-content: center;
 .twocolumnraterheading {
     font-size: 22px;
     padding-bottom: 12px;
+    margin-left: 55px;
     
 }
 
@@ -224,6 +227,7 @@ justify-content: center;
     width: 5rem;
     height: 5rem;
     border-radius: 1000px;
+    margin-bottom: 300px;
     
 }
 
@@ -251,6 +255,7 @@ justify-content: center;
 
 .twoo {
     width: 100%;
+    margin-bottom: 270px;
 }
 
 .twocolumnimage {
@@ -725,7 +730,8 @@ justify-content: center;
 
 .input__btn {
     border: none;
-    padding: 0 40px;
+    padding: 0 80px;
+    margin-right: 70px;
 
 
 }
@@ -768,6 +774,7 @@ nav {
         font-size: 30px;
         font-weight: bold;
         color: black;
+        margin-right: 450px;
     }
 
     ul {
@@ -791,6 +798,7 @@ nav {
         border-radius: 50px;
         padding: 12px 32px;
         font-size: 14px;
+        margin-bottom: 25px;
     }
 
     h1 {
@@ -924,6 +932,52 @@ nav {
         border: 1px solid gray;
     padding: 2px;
     border-radius: 50px;
+    }
+
+    .treact__logo {
+        display: flex;
+        max-width: 100%;
+        width: 40px;
+       
+    }
+
+    .headerlist {
+        margin-right: 300px;
+        font-size: 45px;
+        
+    }
+
+    .end__header {
+        color: white;
+        font-size: 31px;
+        padding-left: 70px;
+        padding-top: 75px;
+    }
+
+    .end__wrapper {
+        border: 1px solid gray;
+        margin-bottom: 150px;
+        padding: 30px 30px;
+        background-color: rgb(80, 80, 242);
+    }
+
+    .getstarted__btn {
+        display: flex;
+        margin-right: 350px;
+        border-radius: 50px;
+        padding: 20px 40px;
+        background-color: red;
+        color: white;
+    }
+
+    .contactus__btn {
+        padding: 20px 40px;
+        border-radius: 50px;
+        background-color: none;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: end;
     }
 
    
