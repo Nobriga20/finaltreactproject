@@ -1059,6 +1059,40 @@ nav {
             max-width: 300px;
         }
         }
+
+        @media (max-width: 480px) {
+            .fivecol__fivecolumns{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                
+            }
+            .starscontainer {
+                display: contents;
+            }
+
+            .styledimg {
+                display: flex;
+                
+            }
+
+            .wrapper__one {
+
+            display: flex;
+            align-items: first baseline;
+            flex-direction: column;
+            justify-content: flex-start;     
+            }
+
+            .threecolwithimage__card {
+                width: 100%;
+            }
+            
+            .landingdescription {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
     
 
 
