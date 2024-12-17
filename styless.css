@@ -14,8 +14,9 @@
 
 .nav__logo {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 400px;
 }
 
 .text {
@@ -233,6 +234,7 @@ justify-content: center;
 .twocolumncustomerinfo {
     display: flex;
     align-items: flex-start;
+    margin-right: 300px;
 
   }
 
@@ -241,6 +243,7 @@ justify-content: center;
 .twocolumnwithname {
     font-size: 24px;
     color: #243E63;
+    margin-top: 15px;
 
 }
 
@@ -746,6 +749,7 @@ justify-content: center;
     box-sizing: border-box;
     font-weight: 700;
     border: none;
+    margin-right: 470px;
 
 }
 
@@ -863,9 +867,9 @@ nav {
     .landingpage__subheading {
         color: #6415ff;
         font-size: 24px;
-        text-align: center;
         margin-top: 100px;
         font-weight: bold;
+        margin-right: 500px;
         }
 
     .heading {
